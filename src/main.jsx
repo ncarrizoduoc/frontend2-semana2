@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/frontend2-semana1">
+    <BrowserRouter basename="/frontend2-semana2">
       <App />
     </BrowserRouter>
   </StrictMode>,
