@@ -1,0 +1,19 @@
+export function validarArticulo(articulo) {
+    const {nombre, marca, url, categoria} = articulo
+
+    return {
+        nombre: nombre.length > 0 && nombre.length <= 150,
+        marca: marca.length > 0 && marca.length <= 50,
+        url: (() => {
+            if (url.length === 0) return false
+
+            try {
+                const parsedUrl = new URL(url)
+                return parsedUrl.protocol === 'http:' || parsedUrl.protocol === 'https:'
+            } catch {
+                return false
+            }
+        })(),
+        categoria: categoria !== '',
+    }
+}
