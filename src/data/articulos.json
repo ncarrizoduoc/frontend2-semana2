@@ -1,0 +1,33 @@
+[
+    {
+        "nombre" : "Jamón serrano",
+        "marca" : "PF",
+        "url" : "https://picsum.photos/seed/jamon/300/300",
+        "categoria" : "Carnes y pescados"
+    },
+    {
+        "nombre" : "Tostador TH-2200",
+        "marca" : "Thomas",
+        "url" : "https://picsum.photos/seed/tostador/300/300",
+        "categoria" : "Electrohogar"
+    },
+    {
+        "nombre" : "Auto de carreras coleccionable",
+        "marca" : "HotWheels",
+        "url" : "https://picsum.photos/seed/auto/300/300",
+        "categoria" : "Juguetes"
+    },
+    {
+        "nombre" : "Arroz G1 1 KG",
+        "marca" : "Miraflores",
+        "url" : "https://picsum.photos/seed/arroz/300/300",
+        "categoria" : "Abarrotes"
+    },
+    {
+        "nombre" : "Bolsa manzana 1 KG",
+        "marca" : "Granny Smith",
+        "url" : "https://picsum.photos/seed/manzana/300/300",
+        "categoria" : "Frutas y verduras"
+    }
+
+]
