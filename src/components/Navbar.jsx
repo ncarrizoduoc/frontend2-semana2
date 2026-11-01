@@ -51,6 +51,16 @@ function Navbar() {
                                 Preguntas Frecuentes
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to='/inventario' className="nav-link">
+                                Inventario
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/nuevo-articulo' className="nav-link">
+                                Agregar artículo
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
