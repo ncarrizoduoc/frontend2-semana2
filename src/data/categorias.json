@@ -1,0 +1,39 @@
+[
+    {
+        "nombre" : "Frutas y verduras",
+        "img" : "https://picsum.photos/seed/frutas/400/400"
+    },
+    {
+        "nombre" : "Abarrotes",
+        "img" : "https://picsum.photos/seed/abarrotes/400/400"
+    },
+    {
+        "nombre" : "Electrohogar",
+        "img" : "https://picsum.photos/seed/electrohogar/400/400"
+    },
+    {
+        "nombre" : "Cocina",
+        "img" : "https://picsum.photos/seed/cocina/400/400"
+    },
+    {
+        "nombre" : "Carnes y pescados",
+        "img" : "https://picsum.photos/seed/carnes/400/400"
+    },
+    {
+        "nombre" : "Limpieza",
+        "img" : "https://picsum.photos/seed/limpieza/400/400"
+    },
+    {
+        "nombre" : "Mundo bebé",
+        "img" : "https://picsum.photos/seed/bebe/400/400"
+    },
+    {
+        "nombre" : "Juguetes",
+        "img" : "https://picsum.photos/seed/juguetes/400/400"
+    },
+    {
+        "nombre" : "Otros",
+        "img" : "https://picsum.photos/seed/otros/400/400"
+    }
+
+]

@@ -1,50 +1,7 @@
-import abarrotes from '../assets/img/categorias/abarrotes.jpg'
-import bebe from '../assets/img/categorias/bebe.jpg'
-import carnespescados from '../assets/img/categorias/carnes_pescados.jpg'
-import cocina from '../assets/img/categorias/cocina.jpg'
-import electrohogar from '../assets/img/categorias/electrohogar.jpg'
-import frutasverduras from '../assets/img/categorias/frutas_verduras.jpg'
-import juguetes from '../assets/img/categorias/juguetes.jpg'
-import limpieza from '../assets/img/categorias/limpieza.jpg'
 import '../css/Categorias.css'
+import categorias from '../data/categorias.json'
 
 import { Link } from "react-router"
-
-const categorias = [
-    {
-        nombre : 'Frutas y verduras',
-        img : frutasverduras
-    },
-    {
-        nombre : 'Abarrotes',
-        img : abarrotes
-    },
-    {
-        nombre : 'Electrohogar',
-        img : electrohogar
-    },
-    {
-        nombre : 'Cocina',
-        img : cocina
-    },
-    {
-        nombre : 'Carnes y pescados',
-        img : carnespescados
-    },
-    {
-        nombre : 'Limpieza',
-        img : limpieza
-    },
-    {
-        nombre : 'Mundo bebé',
-        img : bebe
-    },
-    {
-        nombre : 'Juguetes',
-        img : juguetes
-    },
-
-]
 
 function Categorias() {
     return (
